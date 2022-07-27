@@ -1,0 +1,924 @@
+{
+  "asset": {
+    "generator": "Babylon.js v5.12.1",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform",
+    "MK_babylon_lightmap"
+  ],
+  "extensions": {},
+  "buffers": [
+    {
+      "byteLength": 16048296,
+      "uri": "scene.bin"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "[SceneManager]",
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "_Scene Settings",
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "children": [
+        16
+      ]
+    },
+    {
+      "name": "Buildings_Group_01_LOD1",
+      "mesh": 0,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "Materials",
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "Material__2101096"
+    },
+    {
+      "name": "Buildings_Group_02_LOD1",
+      "mesh": 1,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "children": [
+        6
+      ]
+    },
+    {
+      "name": "Materials",
+      "children": [
+        7
+      ]
+    },
+    {
+      "name": "Material__2101096"
+    },
+    {
+      "name": "Buildings_Group_03_LOD1",
+      "mesh": 2,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "children": [
+        9
+      ]
+    },
+    {
+      "name": "Materials",
+      "children": [
+        10
+      ]
+    },
+    {
+      "name": "Material__2101096"
+    },
+    {
+      "name": "Buildings_Group_04_LOD1",
+      "mesh": 3,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "children": [
+        12
+      ]
+    },
+    {
+      "name": "Materials",
+      "children": [
+        13
+      ]
+    },
+    {
+      "name": "Material__2101096"
+    },
+    {
+      "name": "Upper east side ground",
+      "translation": [
+        2.692508,
+        0,
+        0.001712211
+      ],
+      "mesh": 4,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Ambient Light",
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Main Camera",
+      "translation": [
+        -653.1876999999998,
+        206.4389000000001,
+        -583.5161000000003
+      ],
+      "rotation": [
+        -0.047175519491441366,
+        -0.9066408751819988,
+        -0.10540188756281507,
+        0.4057921092235872
+      ],
+      "camera": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          },
+          "indices": 14,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22,
+            "TEXCOORD_1": 23
+          },
+          "indices": 24,
+          "material": 5
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        5,
+        8,
+        11,
+        14,
+        15
+      ]
+    }
+  ],
+  "scene": 0,
+  "cameras": [
+    {
+      "type": "perspective",
+      "name": "Main Camera",
+      "perspective": {
+        "aspectRatio": 2.1491228070175437,
+        "yfov": 1.047198,
+        "znear": 0.3,
+        "zfar": 1000
+      }
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 844596,
+      "name": "position - Buildings_Group_01_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 844596,
+      "byteOffset": 844596,
+      "name": "normal - Buildings_Group_01_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 563064,
+      "byteOffset": 1689192,
+      "name": "uv - Buildings_Group_01_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 563064,
+      "byteOffset": 2252256,
+      "name": "uv2 - Buildings_Group_01_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 466872,
+      "byteOffset": 2815320,
+      "name": "Indices - Buildings_Group_01_LOD1"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1606956,
+      "byteOffset": 3282192,
+      "name": "position - Buildings_Group_02_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1606956,
+      "byteOffset": 4889148,
+      "name": "normal - Buildings_Group_02_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1071304,
+      "byteOffset": 6496104,
+      "name": "uv - Buildings_Group_02_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1071304,
+      "byteOffset": 7567408,
+      "name": "uv2 - Buildings_Group_02_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 898440,
+      "byteOffset": 8638712,
+      "name": "Indices - Buildings_Group_02_LOD1"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1007376,
+      "byteOffset": 9537152,
+      "name": "position - Buildings_Group_03_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1007376,
+      "byteOffset": 10544528,
+      "name": "normal - Buildings_Group_03_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 671584,
+      "byteOffset": 11551904,
+      "name": "uv - Buildings_Group_03_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 671584,
+      "byteOffset": 12223488,
+      "name": "uv2 - Buildings_Group_03_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 566052,
+      "byteOffset": 12895072,
+      "name": "Indices - Buildings_Group_03_LOD1"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 655776,
+      "byteOffset": 13461124,
+      "name": "position - Buildings_Group_04_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 655776,
+      "byteOffset": 14116900,
+      "name": "normal - Buildings_Group_04_LOD1",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 437184,
+      "byteOffset": 14772676,
+      "name": "uv - Buildings_Group_04_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 437184,
+      "byteOffset": 15209860,
+      "name": "uv2 - Buildings_Group_04_LOD1",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 368952,
+      "byteOffset": 15647044,
+      "name": "Indices - Buildings_Group_04_LOD1"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7476,
+      "byteOffset": 16015996,
+      "name": "position - Upper east side ground",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7476,
+      "byteOffset": 16023472,
+      "name": "normal - Upper east side ground",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4984,
+      "byteOffset": 16030948,
+      "name": "uv - Upper east side ground",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4984,
+      "byteOffset": 16035932,
+      "name": "uv2 - Upper east side ground",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7380,
+      "byteOffset": 16040916,
+      "name": "Indices - Upper east side ground"
+    }
+  ],
+  "accessors": [
+    {
+      "name": "position - Buildings_Group_01_LOD1",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 70383,
+      "type": "VEC3",
+      "min": [
+        -1049.201,
+        0,
+        -3345.468
+      ],
+      "max": [
+        666.4306,
+        237.7,
+        -1964.179
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - Buildings_Group_01_LOD1",
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 70383,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - Buildings_Group_01_LOD1",
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 70383,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv2 - Buildings_Group_01_LOD1",
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 70383,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - Buildings_Group_01_LOD1",
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 116718,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "name": "position - Buildings_Group_02_LOD1",
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 133913,
+      "type": "VEC3",
+      "min": [
+        -1710.94,
+        0,
+        -2673.639
+      ],
+      "max": [
+        223.9316,
+        148,
+        -817.4698
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - Buildings_Group_02_LOD1",
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 133913,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - Buildings_Group_02_LOD1",
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 133913,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv2 - Buildings_Group_02_LOD1",
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 133913,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - Buildings_Group_02_LOD1",
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 224610,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "name": "position - Buildings_Group_03_LOD1",
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 83948,
+      "type": "VEC3",
+      "min": [
+        -1907.302,
+        0,
+        -1506.376
+      ],
+      "max": [
+        -399.0614,
+        160,
+        12.0571
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - Buildings_Group_03_LOD1",
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 83948,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - Buildings_Group_03_LOD1",
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 83948,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv2 - Buildings_Group_03_LOD1",
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 83948,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - Buildings_Group_03_LOD1",
+      "bufferView": 14,
+      "componentType": 5125,
+      "count": 141513,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "name": "position - Buildings_Group_04_LOD1",
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 54648,
+      "type": "VEC3",
+      "min": [
+        -2417.589,
+        0,
+        -503.3397
+      ],
+      "max": [
+        -845.9951,
+        172,
+        876.5917
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - Buildings_Group_04_LOD1",
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 54648,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - Buildings_Group_04_LOD1",
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 54648,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv2 - Buildings_Group_04_LOD1",
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 54648,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - Buildings_Group_04_LOD1",
+      "bufferView": 19,
+      "componentType": 5125,
+      "count": 92238,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "name": "position - Upper east side ground",
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 623,
+      "type": "VEC3",
+      "min": [
+        -2456.475,
+        0,
+        -3379.068
+      ],
+      "max": [
+        691.171,
+        0,
+        904.8646
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - Upper east side ground",
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 623,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - Upper east side ground",
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 623,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv2 - Upper east side ground",
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 623,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - Upper east side ground",
+      "bufferView": 24,
+      "componentType": 5125,
+      "count": 1845,
+      "type": "SCALAR",
+      "byteOffset": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "default material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      }
+    },
+    {
+      "name": "Material__2101096",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      },
+      "extensions": {
+        "MK_babylon_lightmap": {
+          "lightmapTexture": {
+            "index": 0,
+            "texCoord": 1,
+            "extensions": {
+              "KHR_texture_transform": {
+                "offset": [
+                  -0.003928878,
+                  -0.003928878
+                ],
+                "scale": [
+                  1.005793,
+                  1.005793
+                ],
+                "texCoord": 1
+              }
+            }
+          },
+          "useLightmapAsShadowmap": true
+        }
+      }
+    },
+    {
+      "name": "Material__2101096",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      },
+      "extensions": {
+        "MK_babylon_lightmap": {
+          "lightmapTexture": {
+            "index": 1,
+            "texCoord": 1,
+            "extensions": {
+              "KHR_texture_transform": {
+                "scale": [
+                  1.001857,
+                  1.001857
+                ],
+                "texCoord": 1
+              }
+            }
+          },
+          "useLightmapAsShadowmap": true
+        }
+      }
+    },
+    {
+      "name": "Material__2101096",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      },
+      "extensions": {
+        "MK_babylon_lightmap": {
+          "lightmapTexture": {
+            "index": 2,
+            "texCoord": 1,
+            "extensions": {
+              "KHR_texture_transform": {
+                "scale": [
+                  1.001857,
+                  1.001857
+                ],
+                "texCoord": 1
+              }
+            }
+          },
+          "useLightmapAsShadowmap": true
+        }
+      }
+    },
+    {
+      "name": "Material__2101096",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      },
+      "extensions": {
+        "MK_babylon_lightmap": {
+          "lightmapTexture": {
+            "index": 3,
+            "texCoord": 1,
+            "extensions": {
+              "KHR_texture_transform": {
+                "offset": [
+                  -0.003928878,
+                  -0.003928878
+                ],
+                "scale": [
+                  1.005793,
+                  1.005793
+                ],
+                "texCoord": 1
+              }
+            }
+          },
+          "useLightmapAsShadowmap": true
+        }
+      }
+    },
+    {
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      },
+      "extensions": {
+        "MK_babylon_lightmap": {
+          "lightmapTexture": {
+            "index": 4,
+            "texCoord": 1,
+            "extensions": {
+              "KHR_texture_transform": {
+                "scale": [
+                  1.000156,
+                  1.000156
+                ],
+                "texCoord": 1
+              }
+            }
+          },
+          "useLightmapAsShadowmap": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "lightmap_0",
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "name": "lightmap_1",
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "name": "lightmap_2",
+      "sampler": 0
+    },
+    {
+      "source": 3,
+      "name": "lightmap_3",
+      "sampler": 0
+    },
+    {
+      "source": 4,
+      "name": "lightmap_4",
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 33071,
+      "wrapT": 33071,
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "images": [
+    {
+      "name": "lightmap_0",
+      "uri": "lightmap_0.jpeg"
+    },
+    {
+      "name": "lightmap_1",
+      "uri": "lightmap_1.jpeg"
+    },
+    {
+      "name": "lightmap_2",
+      "uri": "lightmap_2.jpeg"
+    },
+    {
+      "name": "lightmap_3",
+      "uri": "lightmap_3.jpeg"
+    },
+    {
+      "name": "lightmap_4",
+      "uri": "lightmap_4.jpeg"
+    }
+  ]
+}

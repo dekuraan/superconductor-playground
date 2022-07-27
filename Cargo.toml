@@ -1,0 +1,18 @@
+[package]
+name = "times_square_superconductor"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+dolly = "0.3.1"
+env_logger = "0.9.0"
+superconductor = { git = "https://github.com/expenses/superconductor.git" }
+tokio = { version = "1.19.2", features = ["rt", "macros", "rt-multi-thread"] }
+
+
+[features]
+wasm = ["superconductor/wasm"]

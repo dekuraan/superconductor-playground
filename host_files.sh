@@ -1,0 +1,1 @@
+basic-http-server web -a 127.0.0.1:8000
